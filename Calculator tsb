@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Calculette HTML</title>
+<form name="calculette" >
+</head>
+<body bgcolor= "#0000008523" text= "gold">
+<input type="button"value="1"onClick="document.calculette.ans.value+=1">
+<input type="button"value="2"onClick="document.calculette.ans.value+=2">
+<input type="button"value="3"onClick="document.calculette.ans.value+=3">
+<input type="button"value="4"onClick="document.calculette.ans.value+=4">
+<input type="button"value="5"onClick="document.calculette.ans.value+=5">
+<input type="button"value="6"onClick="document.calculette.ans.value+=6">
+<input type="button"value="7"onClick="document.calculette.ans.value+=7">
+<input type="button"value="8"onClick="document.calculette.ans.value+=8">
+<input type="button"value="9"onClick="document.calculette.ans.value+=9">
+<input type="button"value="10"onClick="document.calculette.ans.value+=0'">
+<input type="button" value="/" onClick="document.calculette.ans.value+='/'">
+<input type="button" value="*" onClick="document.calculette.ans.value+='*'">
+<input type="button"reset="Réinitialiser">
+<input type="button"value="=" onClick="document. calculette.ans.value=eval(document.calculette.ans.value)">
+<br>AULCHENVALDT <input type="textfield"name="ans"value="">
+</form>
+</body>
+<img>
+<IMG SRC=https://external-preview.redd.it/_6EyD7X-gv5292PJv2U63hPABsuz23DoKdiSyGwlebo.jpg?width=640&crop=smart&auto=webp&s=27f952a08b23c5d50e3acc95a43e924cb6c0c1f9
+ alt="affichage standard" width=200 height=200>    
+</html>
